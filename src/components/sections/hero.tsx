@@ -37,7 +37,7 @@ export function Hero() {
         <div className="grid lg:grid-cols-12 gap-16 items-center">
           
           {/* Left Content */}
-          <div className="lg:col-span-7 space-y-10">
+          <div className="lg:col-span-7 space-y-10 relative z-30">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest animate-in fade-in slide-in-from-bottom-4 duration-700">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
@@ -47,9 +47,11 @@ export function Hero() {
             </div>
             
             <div className="space-y-6">
-              <h1 className="text-6xl lg:text-8xl font-black leading-[0.95] tracking-tighter font-headline text-foreground italic">
+              <h1 className="text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.95] tracking-tighter font-headline text-foreground italic">
                 CLOUD <br /> 
-                <span className="gradient-text not-italic">INFRASTRUCTURE</span> <br /> 
+                <span className="gradient-text not-italic inline-block animate-in slide-in-from-left-full duration-1000 ease-out">
+                  INFRASTRUCTURE
+                </span> <br /> 
                 REIMAGINED.
               </h1>
               
@@ -87,8 +89,8 @@ export function Hero() {
           </div>
 
           {/* Right Visual Composition */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative z-20 group">
+          <div className="lg:col-span-5 relative z-20">
+            <div className="relative group">
               {/* Main Image Card */}
               <div className="relative rounded-[3rem] overflow-hidden border-4 border-background shadow-[0_40px_100px_-20px_rgba(0,0,0,0.3)] transition-transform duration-700 group-hover:scale-[1.02]">
                 <Image
