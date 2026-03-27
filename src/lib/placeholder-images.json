@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract cloud computing network background",
+      "imageUrl": "https://picsum.photos/seed/cloudcanvas-hero/1200/800",
+      "imageHint": "cloud network"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Enterprise customer profile picture",
+      "imageUrl": "https://picsum.photos/seed/user-alpha/100/100",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Startup founder profile picture",
+      "imageUrl": "https://picsum.photos/seed/user-beta/100/100",
+      "imageHint": "startup founder"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Tech lead profile picture",
+      "imageUrl": "https://picsum.photos/seed/user-gamma/100/100",
+      "imageHint": "software engineer"
+    }
+  ]
 }
